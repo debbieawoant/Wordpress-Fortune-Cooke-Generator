@@ -1,0 +1,44 @@
+/* Fortune Cookie Styles */
+.fortune-cookie-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.fortune-cookie {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 15px auto;
+    background: url('images/cookie.png') no-repeat center/contain;
+    transition: transform 0.6s ease;
+}
+
+.fortune-cookie.broken {
+    transform: scale(1.1) rotate(10deg);
+    background: url('images/cookie-broken.png') no-repeat center/contain;
+}
+
+.fcg-button {
+    padding: 10px 20px;
+    background: #f4b400;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fcg-button:hover {
+    background: #d49e00;
+}
+
+.fortune-text {
+    margin-top: 15px;
+    font-size: 18px;
+    font-style: italic;
+    color: #333;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
