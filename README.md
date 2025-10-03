@@ -6,8 +6,6 @@ Add a little mystery and fun to your WordPress site! This plugin shows a fortune
 
 ✨ Features
 
-🎉 20+ built-in fortunes (easily expandable to 100+)
-
 🍪 Animated fortune cookie that “cracks” open
 
 🔀 Random fortune each click
